@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="Cristian Escobar">
+    <meta name="description" content="curriculum portafolio desarrollo web consultor de telecomunicaciones y servicios ti">
+    <meta name="keywords" content="cristian escobar, curriculum, Portfolio, desarrollo web, telecomunicaciones, html, css, javascript">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio Cristian Escobar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio"><i class="bi bi-chevron-left"></i>CRIS<i class="bi bi-slash"></i><i class="bi bi-chevron-right"></i></a>
+            </div>
+            <!-- Aqui se agregara la class responsive dinamicamente con javascript -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()" >INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="images/Foto_cris-2.jpg" alt="">
+            </div>
+            <h1>CRISTIAN ESCOBAR</h1>
+            <h2>Ingeniero Electrico - Consultor de Telecomunicaciones  Desarrollador Web</h2>
+            <div class="redes">
+                <a href="https://github.com/CRISWEBDEV" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/cristian-escobar-lillo-336866169/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/cris_webdev/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com/escobar2301" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div data-aos="zoom-in-up" class="contenido-seccion">
+            <h1>SOBRE MI</h1>
+            <p><span>Hola, soy Cristian Escobar. </span>Soy un profesional experimentado en ventas y consultoria de soluciones de telecomunicaciones y servicios TI con capacidad de persuadir y reconocer las necesidades del cliente y encontrar la solucion a sus requerimientos.  Proactivo y en busqueda permanente de crecimiento profesional y personal, con una gran capacidad de trabajo en equipo y orientacion a resultados. Adicionalmente, he adquirido destrezas en desarrollo Web y manejo de herramientas de Frontend.
+            Mi deseo es poder incorporarme de manera fisica o remota  a una organizacion donde se impulse el desarrollo y crecimiento de sus empleados y me permita aportar todo mi conocimiento y experiencia en las diversas areas en las que he adquirido competencias a lo largo de mi vida laboral.                
+            </p>
+        
+            <div class="fila">
+                <!-- Datos personales -->
+                <div data-aos="slide-left" class="col">                    
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><strong>Cumpleaños:</strong>23-01</li>
+                        <li><strong>Telefono:</strong>+58-0416-5862920 ws</li>
+                        <li><strong>E-mail:</strong>Cristian.Escobar2301@gmail.com</li>
+                        <li><strong>WebSite:</strong><a href="">https://criswebworker.000webhostapp.com/#inicio</li></a>
+                        <li><strong>Ubicacion:</strong>Puerto Ordaz - Venezuela</li>
+                        <li><strong>Actividad Actual:</strong><span>FREELANCER</span></li>
+                    </ul>
+                </div>
+                <!-- Intereses -->
+                <div data-aos="slide-right" class="col">                
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="bi bi-book"></i>
+                            <h5>Lectura</h5>
+                        </div>
+                        <div class="interes">
+                            <i class="bi bi-pc-display-horizontal"></i>
+                            <h5>Win OS</h5>
+                        </div>
+                        <div class="interes">
+                            <i class="bi bi-headphones"></i>
+                            <h5>Musica</h5>
+                        </div>
+                        <div class="interes">
+                            <i class="bi bi-airplane"></i>
+                            <h5>Viajar</h5>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <h5>Programacion</h5>
+                        </div>
+                        <div class="interes">
+                            <i class="bi bi-tv"></i>
+                            <h5>Television</h5>  
+                        </div>
+                        <div class="interes">
+                            <i class="bi bi-person-walking"></i>
+                            <h5>Excursion</h5>   
+                        </div>
+                        <div class="interes">
+                            <i class="bi bi-film"></i>
+                            <h5>Cine</h5>   
+                        </div>
+                    </div>
+                </div>                
+            <div>
+            <button>
+                    Descargar CV <i class="bi bi-file-earmark-arrow-down"></i>
+                    <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop / Ilustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>BD MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Negociacion efectiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Internet y Servicios TI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Hardware de computadoras</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Orientacion a resultados</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h1>CURRICULUM</h1>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div data-aos="zoom-in-up" class="item izq">
+                        <h4>Programacion Web</h4>
+                        <span class="casa">Cursos Udemy - Open BootCamp</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Programador innovador y emprendedor de Internet que se empeña en hacer del mundo un lugar más unido y conectado. Dominio del desarrollo de software y del trabajo con diferentes estructuras de datos. Desarrollo Front end en HTML, CSS y JavaScript y diseño responsivo.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>                    
+                    </div>
+                    <div data-aos="zoom-in-up" class="item izq">
+                        <h4>Diplomado en Gerencia</h4>
+                        <span class="casa">UNEXPO</span>
+                        <span class="fecha">2010</span>
+                        <p>Conocimientos en las áreas de gerencia general, comportamiento organizacional, planificación estratégica, gerencia de operaciones y servicios, gestión del  capital humano  y  toma de decisiones en organizaciones Publicas y Privadas. Formacion como agente del cambio con habilidades necesarias para la integración de equipos de alto desempeño, con condiciones para ejercer el liderazgo.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>                    
+                    </div> 
+                    <div data-aos="zoom-in-up" class="item izq">
+                        <h4>Ingenieria Electrica</h4>
+                        <span class="casa">UNEXPO</span>
+                        <span class="fecha">1980 - 1985</span>
+                        <p>Ingeniero eléctrico con mas treinta años de experiencia diseñando y desarrollando sistemas y equipos eléctricos, con conocimientos y habilidades en electrónica, circuitos, electromagnetismo, telecomunicaciones, procesamiento de señales, ingeniería computacional y movilidad eléctrica. Dominio avanzado de redes de telecomunicaciones, internet y tecnologias de informacion. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>                    
+                    </div>     
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div data-aos="zoom-in-up" class="item der">
+                        <h4>Lider de Soluciones y Servicios</h4>
+                        <span class="casa">CANTV</span>
+                        <span class="fecha">2001 - 2022</span>
+                        <p>Asesoramiento, consultoría y venta de soluciones y/o servicios de Telecomunicaciones adaptados a los requerimientos de los usuarios (Empresas, corporaciones y administración pública Nacional). Coordinación y ejecución de Proyectos y propuestas comerciales y seguimiento en la implementación de los servicios. Desarrollo de planes para manejo de grandes cuentas a corto, mediano y largo plazo. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>                    
+                    </div>
+                    <div data-aos="zoom-in-up" class="item der">
+                        <h4>Supervisor de Negocios</h4>
+                        <span class="casa">Telecomunicaciones Movilnet</span>
+                        <span class="fecha">1999 - 2001</span>
+                        <p>Consultoría y venta de soluciones, planes y servicios de telefonía móvil celular adaptada a los requerimientos de empresas, corporaciones y administración pública nacional según sus necesidades de comunicaciones y movilidad. Coordinación y ejecución de proyectos y propuestas comerciales hasta la implantación y entrega de la cuenta, equipos móviles  y servicios </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in-up" class="item der">
+                        <h4>Director Gerente</h4>
+                        <span class="casa">SERVICOMP</span>
+                        <span class="fecha">1989 - 1999</span>
+                        <p>Dirección y administración de la empresa dedicada a la venta de equipos de computación, accesorios y servicios.  Reparación, servicio técnico y ensamblaje de computadoras de escritorio. Academia de cursos de aplicaciones de ofimática</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h1>PORTFOLIO</h1>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="images/Proyecto_1.jpg" alt="" width="300px" >
+                    <div class="overlay">
+                        <h3>Coquetas WebSite</h3>
+                        <p>Proyecto Comercial Tienda online</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="images/Proyecto_2.png" alt="" width="300px">
+                    <div class="overlay">
+                        <h3>Monitoreo WebSite</h3>
+                        <p>Proyecto Comercial Landing</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="images/Proyecto_3.png" alt="" width="300px">
+                    <div class="overlay">
+                        <h3>Portfolio Personal</h3>
+                        <p>Proyecto Web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h1>CONTACTO</h1>
+            <div class="fila">
+                <!-- Formulario -->
+                
+                <div class="col">
+                    <form action="" id="form">
+                        <input type="text" name="name" id="name" placeholder="Tu Nombre">
+                        <input type="text" name="phone" id="phone" placeholder="Tu Telefono">
+                        <input type="text" name="email" id="email" placeholder="Tu Correo">   
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        
+                        <input class="enviar" type="submit" id="button" value="ENVIAR MENSAJE" >
+                        <!--  
+                        <button type="submit" id="button">Enviar Mensaje   <i class="fa-solid fa-paper-plane"></i><span class="overlay"></span></button>-->
+                    </form>
+                </div>
+                
+                <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                </script>
+
+                <script type="text/javascript">
+                emailjs.init('m6HtY3UJgZ2PN7rG0')
+                </script>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="images/ubicacion 2.png" alt="" >
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-map-marker"></i>
+                                Villa Icabaru - Mz 3 - C 9
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone"></i>
+                                +58 0412-7218905
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                cristian.escobar2301@gmail.com
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        
+        <div class="redes">
+            <a href="https://github.com/CRISWEBDEV" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/cristian-escobar-lillo-336866169/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/cris_webdev/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com/escobar2301" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter-x"></i></a>
+        </div>
+        <div class="pie">
+            <p>CRIS Web Developer - Todos los derechos reservados 2023<i class="fa-regular fa-copyright"></i></p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+
+    <script>
+        const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Enviando...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_fxqpwu9';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'ENVIAR MENSAJE';
+      alert('Mensaje Enviado Correctamente!');
+    }, (err) => {
+      btn.value = 'ENVIAR MENSAJE';
+      alert(JSON.stringify(err));
+    });
+});
+    </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+              easing: 'ease-out-back',
+              duration: 2000
+          });
+</script>
+    
+</body>
+</html>
